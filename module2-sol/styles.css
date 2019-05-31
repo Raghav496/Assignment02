@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box; 
+ } 
+
+h1 {
+	text-align: center;
+	color: black;
+	margin-bottom: 25px;
+  font-size: 2.5em;
+  }
+
+h2{
+	text-align: center;
+	border:1px solid black;
+	margin: 0px 0px 20px 0px;
+	float:right;
+}
+
+#m1{
+ 	background-color: pink;
+ 	height: 30px;
+	width: 100px;
+}
+
+#m2{
+ 	background-color: red;
+ 	height: 30px;
+	width: 100px;
+	color: white;
+ }
+
+#m3{
+ 	background-color: yellow;
+ 	height: 30px;
+  width: 100px;
+ }
+
+p{
+  font-size: 1.1em;
+ 	height: 200px;
+ 	color: white;
+ 	padding: 10px;
+  clear: both;
+}   
+
+/********** Desktop View **********/
+
+@media (min-width: 992px) 
+  {
+  .chicken
+	{
+		float: left;
+    border: 1px solid;
+  	width: 33%; 
+    background-color: gray;
+  }
+
+  .beef
+  {
+    float: left;
+    border: 1px solid;
+  	width: 33%; 
+    background-color: gray;
+    margin-left: 0.33%;
+  }
+
+  .sushi
+  {
+    float: left;
+    border: 1px solid;
+  	width: 33%; 
+    background-color: gray;
+    margin-left: 0.33%;
+  }
+}
+
+/********* Tablet View *********/
+@media(min-width: 768px) and (max-width: 991px)
+  {
+  .chicken
+	{
+		float: left;
+    border: 1px solid;
+  	width: 49%; 
+    background-color: gray;
+  }
+
+  .beef
+	{
+		float: left;
+    border: 1px solid;
+  	width: 49%; 
+    background-color: gray;
+    margin-left: 2%;
+  }
+
+  .sushi
+	{
+		float: left;
+    border: 1px solid;
+  	width: 100%; 
+    background-color: gray;
+    margin-top: 2%;
+  }
+}
+/********** Mobile View **********/
+@media (max-width: 767px)
+  {
+  .chicken
+	{
+		float: left;
+    border: 1px solid;
+  	width: 100%; 
+    background-color: gray;
+    margin-top: 2%;
+  }
+
+  .beef
+	{
+		float: left;
+    border: 1px solid;
+  	width: 100%; 
+    background-color: gray;
+    margin-top: 2%;
+  }
+
+  .sushi
+	{
+		float: left;
+    border: 1px solid;
+  	width: 100%; 
+    background-color: gray;
+    margin-top: 2%;
+  }
+}
